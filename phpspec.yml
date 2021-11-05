@@ -1,0 +1,4 @@
+suites:
+  symfony-messenger-application:
+    namespace: CptBurke\Application\SymfonyMessenger
+    psr4_prefix: CptBurke\Application\SymfonyMessenger

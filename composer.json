@@ -1,0 +1,30 @@
+{
+    "name": "cptburke/symfony-messenger-application",
+    "description": "implementation of application primitives using symfony messenger component",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "cptBurke",
+            "email": "p.burmann@gmx.de"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "cptburke/application-primitives": "^0.1.0",
+        "symfony/messenger": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "CptBurke\\Application\\SymfonyMessenger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "spec\\CptBurke\\Application\\SymfonyMessenger\\": "spec/"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^7.1"
+    }
+}
